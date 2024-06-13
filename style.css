@@ -40,3 +40,18 @@ h2 {
 .purple {
     background-color: #819ff9;
 }
+
+.flash {
+    background-color: #fff;
+}
+
+.userflash {
+    background-color: green;
+
+}
+
+#stbtn {
+    margin-top: 2rem;
+    padding: 0.2rem 2rem;
+    font-size: 1.5em;
+}
