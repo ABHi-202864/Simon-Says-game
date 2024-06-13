@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    letter-spacing: 0.3px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1rem;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.purple {
+    background-color: #819ff9;
+}
