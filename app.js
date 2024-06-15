@@ -20,7 +20,7 @@ let h2 = document.querySelector("h2");
 let stbtn = document.querySelector("#stbtn");
 stbtn.addEventListener("click", function () {
     if (started == false) {
-        console.log("game is started");
+        // console.log("game is started");
         started = true;
 
         levelUp();
@@ -61,7 +61,7 @@ function checkAns(idx) {
             setTimeout(levelUp(), 1000);
         }
     } else {
-        h2.innerHTML = `Game Over! ( your score was = <b> ${level}</b> ) <br> Press 'Start' button to start.`;
+        h2.innerHTML = `Game Over! ( your score was = <b> ${level}</b> ) <br> Press 'Start' button to start again.`;
         document.querySelector("body").style.backgroundColor = "red";
         setTimeout(function () {
             document.querySelector("body").style.backgroundColor = "white";
